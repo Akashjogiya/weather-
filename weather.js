@@ -44,19 +44,19 @@ document.addEventListener("DOMContentLoaded", function() {
 				set.innerText=sunsetTime;
 
 				if (data.weather[0].main =="Clouds") {
-					weather_icon.src="../image/clouds.png"
+					weather_icon.src="image/clouds.png"
 				}
 				else if (data.weather[0].main =="Clear"){
-					weather_icon.src="../image/clouds.png"
+					weather_icon.src="image/clouds.png"
 				}
 				else if (data.weather[0].main =="Rain"){
-					weather_icon.src="../image/rainy.png"
+					weather_icon.src="image/rainy.png"
 				}
             else if (data.weather[0].main =="mist"){
-					weather_icon.src="../image/Mist.jpg"
+					weather_icon.src="image/Mist.jpg"
 				}
 				else if (data.weather[0].main =="Drizzle"){
-					weather_icon.src="../image/drizzle.jpeg"
+					weather_icon.src="image/drizzle.jpeg"
 				}
 			}
 		} catch(error){
@@ -66,4 +66,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	};
 	button.addEventListener("click", btn);
+
 });
