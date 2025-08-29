@@ -1,6 +1,5 @@
 body{
-    background-image: url();
-    background-image: url(../image/backgroundimage.png);
+    background-image: url(../image/background image.jpg);
     background-size:cover ;
 }
 h1{
@@ -167,3 +166,4 @@ h6{
 .repo-card a:hover {
   text-decoration: underline;
 }
+
